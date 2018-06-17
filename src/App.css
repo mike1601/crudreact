@@ -1,0 +1,81 @@
+:root{
+  --primary: #2196F3;
+  --shadow: 0 5px 10px rgba(104, 104, 104, 0.8);
+  --font:white;
+}
+
+.container{
+  width: 90%;
+  margin: 0px auto ;
+}
+a{
+  text-decoration: none;
+}
+html{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+img{
+  max-width: 100%;
+}
+textarea{
+  resize: none;
+}
+
+
+#root h1{
+  margin-top: 0px;
+  padding: 1.4rem;
+  
+  background-color: var(--primary);
+  box-shadow: var(--shadow);
+  color: var(--font);
+}
+.input form{
+   display: grid;
+  grid-gap: 20px;
+    grid-template-columns: 2fr 6fr ;
+  align-items: center;
+  text-align: center;
+  background-color: var(--primary);
+  padding: 1.4rem;
+  color: var(--font); 
+  font-size: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+
+
+.input input{
+  font-size: 1.5rem;
+  width: 90%;
+  padding: 1rem;
+   border: 0px solid transparent;
+   border-radius: 15px;
+
+}
+.input input .active{
+  border: 10px solid greenyellow;
+}
+.tiles{
+  margin-top: 20px;
+ 
+}
+.Prop{
+  /* margin-top: 20px; */
+  display: grid;
+  grid-gap: 20px;
+    grid-template-columns: 1fr 1fr ;
+  align-items: center;
+  text-align: center;
+  
+
+}
+.Project{
+  background-color: var(--primary);
+  padding: 1.4rem;
+  color: var(--font); 
+  font-size: 1.5rem;
+  box-shadow: var(--shadow);
+}
